@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiTenancy", "MultiTenancy\MultiTenancy.csproj", "{1E08F600-AE1D-4226-8C06-213591D84A08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiltiTenancy.Tests", "MultiTenancy.Tests\MiltiTenancy.Tests.csproj", "{FAD3C7E2-C098-4F7E-91B8-036E39A443D5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E08F600-AE1D-4226-8C06-213591D84A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E08F600-AE1D-4226-8C06-213591D84A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E08F600-AE1D-4226-8C06-213591D84A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E08F600-AE1D-4226-8C06-213591D84A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD3C7E2-C098-4F7E-91B8-036E39A443D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD3C7E2-C098-4F7E-91B8-036E39A443D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD3C7E2-C098-4F7E-91B8-036E39A443D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD3C7E2-C098-4F7E-91B8-036E39A443D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
